@@ -14,24 +14,24 @@ li {list-style: none;}
     background-color:azure;
 }
 
+.bg .box {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
 
-.wrap1 {
+.bg .box .wrap1 {
     width : 785px;
     margin:0 auto;
 }
 
-.wrap1::after {
+.bg .box .wrap1::after {
     content: "";
     display: block;
     clear: both;
 }
 
-.box {
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
-}
 
-.item {
+.bg .box .wrap1 .item {
     font-weight: 600;
     margin: 15px 10px;
     float: left;
@@ -40,7 +40,7 @@ li {list-style: none;}
     
 }
 
-.item2 {
+.bg .box .wrap1 .item2 {
     font-weight: 600;
     margin: 15px 10px;
     float: left;

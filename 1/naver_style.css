@@ -8,43 +8,34 @@ a {text-decoration: none;}
 li {list-style: none;}
 
 
+.fc-black{
+    color:black;
+}
+.fc-red{
+    color:red;
+}
+
+
 .bg {
-    /*margin:200px 0;*/
-    padding:10px 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
     background-color:azure;
 }
 
-.bg .box {
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+.box {
+    width : 900px;
+    padding:10px 0;
+    margin : 0 auto;
 }
 
-.bg .box .wrap1 {
-    width : 785px;
-    margin:0 auto;
-}
-
-.bg .box .wrap1::after {
-    content: "";
-    display: block;
-    clear: both;
+.box .wrap1 { 
+    display: flex;
+    justify-content: space-between;
 }
 
 
-.bg .box .wrap1 .item {
+.box .wrap1 .item {
     font-weight: 600;
-    margin: 15px 10px;
-    float: left;
-    text-align: center;
-    color: green;
-    
-}
-
-.bg .box .wrap1 .item2 {
-    font-weight: 600;
-    margin: 15px 10px;
-    float: left;
-    text-align: center;
-    color: black;
+    text-align: center;   
 }
 
